@@ -1,4 +1,4 @@
-# Score-keepe
+# Score-keeper
 Meteor and React.
 
 ## Authors 
