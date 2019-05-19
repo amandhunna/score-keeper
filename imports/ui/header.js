@@ -5,8 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import Drawer from './drawer'
 
 const styles = {
   root: {
@@ -24,16 +23,14 @@ const styles = {
 function ButtonAppBar(props) {
   const { classes } = props;
   return (
-    <div className={classes.root}>
+    <div className=" 1 {classes.root}  ">
       <AppBar position="static">
         <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon />
-          </IconButton>
+          <Drawer />
           <Typography variant="h6" color="inherit" className={classes.grow}>
             News
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit" onClick={() => Accounts.logout()}>Login</Button>
         </Toolbar>
       </AppBar>
     </div>
