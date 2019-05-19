@@ -1,7 +1,5 @@
-# Short Links
-
-This is a link shortener application from Andrew Mead's Udemy course on Meteor and React.
+# Score-keepe
+Meteor and React.
 
 ## Authors 
-
-Adrian Willsher
+Amanjot Singh
