@@ -1,7 +1,7 @@
-# Short Links
+# Score-keeper
 
-This is a link shortener application from Andrew Mead's Udemy course on Meteor and React.
+Meteor and React.
 
 ## Authors 
 
-Adrian Willsher
+Amanjot Singh
